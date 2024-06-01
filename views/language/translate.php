@@ -6,13 +6,14 @@
  * @since 1.0
  */
 use yii\helpers\Html;
+use yii\web\View;
 use yii\widgets\Pjax;
 use yii\grid\GridView;
 use yii\widgets\ActiveForm;
 use lajax\translatemanager\helpers\Language;
 use lajax\translatemanager\models\Language as Lang;
 
-/* @var $this \yii\web\View */
+/* @var $this View */
 /* @var $language_id string */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 /* @var $searchModel lajax\translatemanager\models\searches\LanguageSourceSearch */

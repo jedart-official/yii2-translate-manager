@@ -3,6 +3,7 @@
 namespace lajax\translatemanager\controllers\actions;
 
 use Yii;
+use yii\db\Exception;
 use yii\widgets\ActiveForm;
 use lajax\translatemanager\models\Language;
 
@@ -20,6 +21,7 @@ class CreateAction extends \yii\base\Action
      * If creation is successful, the browser will be redirected to the 'view' page.
      *
      * @return mixed
+     * @throws Exception
      */
     public function run()
     {

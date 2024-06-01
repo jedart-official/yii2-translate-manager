@@ -2,6 +2,7 @@
 
 namespace lajax\translatemanager\controllers;
 
+use lajax\translatemanager\Module;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\data\ArrayDataProvider;
@@ -18,7 +19,7 @@ use lajax\translatemanager\models\Language;
 class LanguageController extends Controller
 {
     /**
-     * @var \lajax\translatemanager\Module TranslateManager module
+     * @var Module TranslateManager module
      */
     public $module;
 

@@ -5,8 +5,11 @@
  * @since 1.0
  */
 
-/* @var $this \yii\web\View */
-/* @var $newDataProvider \yii\data\ArrayDataProvider */
+/* @var $this View */
+/* @var $newDataProvider ArrayDataProvider */
+
+use yii\data\ArrayDataProvider;
+use yii\web\View;
 
 $this->title = Yii::t('language', 'Optimise database');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('language', 'Languages'), 'url' => ['list']];

@@ -6,8 +6,10 @@
  */
 
 /* @var $this yii\web\View */
-/* @var $newDataProvider \yii\data\ArrayDataProvider */
-/* @var $oldDataProvider \yii\data\ArrayDataProvider */
+/* @var $newDataProvider ArrayDataProvider */
+/* @var $oldDataProvider ArrayDataProvider */
+
+use yii\data\ArrayDataProvider;
 
 $this->title = Yii::t('language', 'Scanning project');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('language', 'Languages'), 'url' => ['list']];

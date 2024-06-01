@@ -3,6 +3,7 @@
 namespace lajax\translatemanager\controllers\actions;
 
 use Yii;
+use yii\db\Exception;
 use yii\web\Response;
 use lajax\translatemanager\models\Language;
 
@@ -19,6 +20,7 @@ class ChangeStatusAction extends \yii\base\Action
      * Modifying the state of language.
      *
      * @return array
+     * @throws Exception
      */
     public function run()
     {

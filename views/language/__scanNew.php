@@ -5,10 +5,12 @@
  * @since 1.4
  */
 
-/* @var $this \yii\web\View */
-/* @var $newDataProvider \yii\data\ArrayDataProvider */
+/* @var $this View */
+/* @var $newDataProvider ArrayDataProvider */
 
+use yii\data\ArrayDataProvider;
 use yii\grid\GridView;
+use yii\web\View;
 
 ?>
 

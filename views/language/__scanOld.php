@@ -4,12 +4,15 @@
  *
  * @since 1.4
  */
+
+use yii\data\ArrayDataProvider;
 use yii\grid\GridView;
 use yii\helpers\Html;
 use yii\helpers\Url;
+use yii\web\View;
 
-/* @var $this \yii\web\View */
-/* @var $oldDataProvider \yii\data\ArrayDataProvider */
+/* @var $this View */
+/* @var $oldDataProvider ArrayDataProvider */
 
 ?>
 <?php if ($oldDataProvider->totalCount > 1) : ?>

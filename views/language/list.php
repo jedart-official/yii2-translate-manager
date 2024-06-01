@@ -7,9 +7,10 @@
 use yii\grid\GridView;
 use yii\helpers\Html;
 use lajax\translatemanager\models\Language;
+use yii\web\View;
 use yii\widgets\Pjax;
 
-/* @var $this \yii\web\View */
+/* @var $this View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 /* @var $searchModel lajax\translatemanager\models\searches\LanguageSearch */
 
